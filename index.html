@@ -8,22 +8,53 @@
     <title>Document</title>
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./estilo.css">
 </head>
 <body>
     <div class="container">
         <h2>Sobre nós</h2>
         <img class="img-responsive" src="img/empresa.jpg">
 
-        <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
-        <p id="primeiro-paragrafo" class="collapse">A TopCasaFina esta no mercado desde</p>
-
-        <h2>Desde 1935</h2>
-        <p class="collapse">A TopCasaFina esta no mercado desde</p>
-
-        <h2>Desde 1935</h2>
-        <p class="collapse">A TopCasaFina esta no mercado desde</p>
+        <div class="panel-group" id="paineis-sobre">
+            <div class="panel panel-dafault">
+                <div class="panel-title">
+                    <h3 data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                </div>
+                <div id="primeiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="panel panel-dafault">
+                <div class="panel-title">
+                    <h3 data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Preços a partir de R$ 1000,00.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="panel panel-dafault">
+                <div class="panel-title">
+                    <h3 data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="jquery.js"></script>
+
+    <script src="jquery.js"> </script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
