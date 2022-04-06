@@ -54,6 +54,19 @@ header h1 {
     }
 }
 
+@media(min-width: 992px){
+    .topCasaFina-banner{
+        left: 0;
+        translate: (0, -80%);
+        width: 50%;
+    }
+
+    .topCasaFina-bannerWrapper{
+        position: relative;
+        height: 100%;
+    }
+}
+
 footer {
     background-color: #333;
     color:#FFF;
